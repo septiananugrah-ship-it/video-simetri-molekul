@@ -1,0 +1,78 @@
+hook-00	Dua molekul ini tersusun dari atom yang sama, dengan ikatan yang sama persis.
+hook-01	Yang satu berbau daun mint. Yang lain berbau jintan.
+hook-02	Bedanya hanya satu: keduanya adalah bayangan cermin satu sama lain, seperti tangan kiri dan tangan kanan.
+hook-03	Hidung kita bisa membedakannya. Molekul pun bisa. Simetri ternyata bukan sekadar soal keindahan.
+hook-04	Hari ini kita belajar bahasa simetri: cara menggambarkan bentuk molekul dengan tepat, dan meramal sifatnya dari bentuk itu.
+roadmap-00	Perjalanan kita punya tiga bagian.
+roadmap-01	Pertama, prinsip dasar: unsur dan operasi simetri, yaitu sumbu putar, bidang cermin, pusat inversi, dan putaran tak wajar.
+roadmap-02	Kedua, implementasi dalam kimia: grup titik, cara menentukannya, dan tabel karakter.
+roadmap-03	Ketiga, penerapan: kepolaran, kiralitas, getaran yang aktif inframerah, dan gas rumah kaca.
+operation-00	Operasi simetri adalah gerakan yang membuat molekul tampak persis sama seperti sebelumnya.
+operation-01	Putar molekul air seratus delapan puluh derajat mengelilingi sumbu yang tepat, dan kedua hidrogen bertukar tempat. Hasilnya tak bisa dibedakan dari awal.
+operation-02	Garis atau bidang yang dipakai untuk melakukan operasi itu disebut unsur simetri.
+operation-03	Selalu ada satu operasi yang paling sepele: tidak melakukan apa-apa. Namanya identitas, e. Setiap molekul memilikinya.
+operation-04	Hanya ada lima jenis unsur simetri untuk molekul. Kita bahas satu per satu.
+rotation-00	Sumbu putar ce en: putaran sebesar tiga ratus enam puluh derajat dibagi en yang mengembalikan bentuk molekul.
+rotation-01	Air punya sumbu ce dua: putaran seratus delapan puluh derajat.
+rotation-02	Amonia punya sumbu ce tiga: putaran seratus dua puluh derajat, tiga kali kembali ke awal.
+rotation-03	Benzena punya sumbu ce enam tegak lurus cincin, dan enam sumbu ce dua di bidang cincin.
+rotation-04	Sumbu dengan en terbesar disebut sumbu utama, dan biasanya ditegakkan sebagai sumbu zet.
+mirror-00	Bidang cermin, sigma: pantulkan setiap atom melalui bidang ini, dan molekul tetap sama.
+mirror-01	Bila bidang itu memuat sumbu utama, namanya sigma fe, vertikal. Air punya dua: bidang molekul itu sendiri, dan bidang yang memotongnya tegak lurus.
+mirror-02	Bila bidang itu tegak lurus sumbu utama, namanya sigma ha, horizontal. Boron trifluorida punya satu, yaitu bidang molekulnya.
+mirror-03	Ada juga sigma de, diagonal: bidang vertikal yang membelah sudut di antara dua sumbu ce dua.
+inversion-00	Pusat inversi, i: tarik setiap atom lurus melalui satu titik pusat, ke jarak yang sama di sisi seberang.
+inversion-01	Benzena dan karbon dioksida punya pusat inversi. Air dan amonia tidak.
+inversion-02	Unsur terakhir paling licik: putaran tak wajar, es en. Putar dengan sudut tiga ratus enam puluh dibagi en, lalu pantulkan pada bidang yang tegak lurus sumbu itu.
+inversion-03	Metana tidak punya sumbu ce empat, tetapi punya es empat: putar sembilan puluh derajat, lalu cerminkan, dan metana kembali sama.
+inversion-04	Bidang cermin dan pusat inversi sebenarnya kasus khusus putaran tak wajar: es satu dan es dua.
+chiral-00	Sekarang kita bisa mendefinisikan kiralitas dengan tepat.
+chiral-01	Molekul kiral jika ia tidak punya putaran tak wajar sama sekali: tanpa bidang cermin, tanpa pusat inversi, tanpa es en.
+chiral-02	Molekul seperti itu tidak bisa ditumpuk tepat di atas bayangan cerminnya, sama seperti tangan kiri tidak cocok dengan sarung tangan kanan.
+chiral-03	Karvon adalah contohnya. Bentuk er berbau mint, bentuk es berbau jintan, karena reseptor penciuman kita sendiri juga kiral.
+chiral-04	Itulah sebabnya obat sering dibuat hanya dalam satu bentuk cermin: tubuh kita membedakan kiri dan kanan.
+group-00	Kumpulan semua operasi simetri sebuah molekul membentuk struktur matematika yang disebut grup.
+group-01	Karena semua unsurnya melewati satu titik yang tetap, kita menyebutnya grup titik.
+group-02	Air punya empat operasi: e, ce dua, dan dua sigma fe. Grup titiknya diberi nama ce dua fe.
+group-03	Amonia termasuk ce tiga fe. Boron trifluorida, de tiga ha. Metana, te de, grup tetrahedral.
+group-04	Molekul yang berbeda tapi grup titiknya sama akan berbagi banyak sifat: kepolaran, jumlah getaran aktif, bahkan pola orbitalnya.
+flowchart-00	Untuk menentukan grup titik, ikuti diagram alir ini.
+flowchart-01	Apakah molekulnya linear? Jika ya dan punya pusat inversi, de tak hingga ha, seperti karbon dioksida. Tanpa pusat inversi, ce tak hingga fe, seperti ha ce el.
+flowchart-02	Apakah simetrinya sangat tinggi? Tetrahedron te de, oktahedron o ha seperti belerang heksafluorida, ikosahedron i ha seperti fulerena ce enam puluh.
+flowchart-03	Jika tidak, cari sumbu utama ce en. Ada en sumbu ce dua yang tegak lurus padanya? Jika ya, grupnya keluarga de. Jika tidak, keluarga ce.
+flowchart-04	Terakhir, periksa bidang cermin: sigma ha memberi akhiran ha, sigma fe atau sigma de memberi akhiran fe atau de.
+flowchart-05	Coba benzena: tidak linear, tidak kubik, sumbu utama ce enam, enam ce dua tegak lurus, ada sigma ha. Jadi de enam ha.
+gallery-00	Mari lihat galeri molekul yang sudah kita kenal.
+gallery-01	Air dan formaldehida: ce dua fe. Amonia: ce tiga fe. Etilena dan naftalena: de dua ha.
+gallery-02	Benzena: de enam ha. Metana: te de. Belerang heksafluorida: o ha. Fulerena: i ha.
+gallery-03	Dan molekul tanpa simetri apa pun selain identitas, seperti ce ha ef ce el be er, termasuk grup ce satu.
+table-00	Setiap grup titik punya tabel karakter: kartu identitas yang mencatat bagaimana sesuatu berperilaku terhadap tiap operasi.
+table-01	Untuk ce dua fe, ada empat baris: a satu, a dua, be satu, dan be dua.
+table-02	Angka satu berarti tidak berubah oleh operasi itu. Minus satu berarti berganti tanda.
+table-03	Orbital pe zet oksigen pada air tidak berubah oleh semua operasi: ia termasuk a satu. Orbital pe eks berganti tanda oleh ce dua: ia termasuk be satu.
+table-04	Itulah asal label dua a satu, satu be dua, tiga a satu, dan satu be satu pada orbital molekul air di video sebelumnya.
+overlap-00	Tabel karakter juga menjawab pertanyaan lama: kapan dua orbital boleh bergabung?
+overlap-01	Dua orbital hanya bertumpang tindih bila keduanya termasuk baris simetri yang sama.
+overlap-02	Jika berbeda, bagian positif dan negatif tumpang tindihnya selalu saling menghapus: hasilnya tepat nol.
+overlap-03	Aturan yang sama menentukan transisi mana yang diizinkan, seperti paritas pada atom. Paritas hanyalah simetri inversi.
+polar-00	Molekul polar jika punya momen dipol permanen. Simetri bisa meramalnya tanpa hitungan.
+polar-01	Momen dipol harus tetap sama oleh setiap operasi simetri. Jadi ia harus terletak pada setiap sumbu dan setiap bidang cermin sekaligus.
+polar-02	Akibatnya, hanya molekul dengan grup ce en, ce en fe, atau ce es yang bisa polar.
+polar-03	Karbon dioksida, boron trifluorida, dan metana punya ikatan polar, tetapi momen ikatannya saling meniadakan. Molekulnya nonpolar.
+polar-04	Air, C dua fe, polar. Itulah sebabnya air melarutkan garam dan naik di pipa kapiler.
+ir-00	Molekul tak linear dengan en atom punya tiga en dikurangi enam getaran. Molekul linear, tiga en dikurangi lima.
+ir-01	Air punya tiga getaran: regangan simetris sekitar tiga ribu enam ratus lima puluh tujuh, tekukan seribu lima ratus sembilan puluh lima, dan regangan asimetris tiga ribu tujuh ratus lima puluh enam per sentimeter.
+ir-02	Getaran menyerap inframerah hanya bila mengubah momen dipol. Dalam bahasa simetri: bila getarannya termasuk baris yang sama dengan eks, ye, atau zet.
+ir-03	Ketiga getaran air aktif inframerah. Tetapi pada molekul berpusat inversi, getaran yang aktif inframerah tidak aktif Raman, dan sebaliknya. Ini aturan saling meniadakan.
+greenhouse-00	Karbon dioksida punya empat getaran: regangan simetris, regangan asimetris, dan dua tekukan.
+greenhouse-01	Regangan simetris tidak mengubah dipol: tidak menyerap inframerah. Ia hanya terlihat pada spektrum Raman, sekitar seribu tiga ratus delapan puluh delapan per sentimeter.
+greenhouse-02	Regangan asimetris, dua ribu tiga ratus empat puluh sembilan, dan tekukan, enam ratus enam puluh tujuh per sentimeter, mengubah dipol dan menyerap inframerah.
+greenhouse-03	Tekukan enam ratus enam puluh tujuh tepat berada di daerah tempat Bumi memancarkan panasnya ke angkasa.
+greenhouse-04	Nitrogen dan oksigen, de tak hingga ha, tidak punya getaran yang aktif inframerah. Karena itu hanya sebagian kecil udara, seperti karbon dioksida dan uap air, yang menahan panas Bumi.
+recap-00	Mari rangkum.
+recap-01	Ada lima jenis unsur simetri: identitas, sumbu putar, bidang cermin, pusat inversi, dan putaran tak wajar.
+recap-02	Molekul tanpa putaran tak wajar bersifat kiral, seperti karvon mint dan karvon jintan.
+recap-03	Semua operasi sebuah molekul membentuk grup titik, yang ditentukan dengan diagram alir.
+recap-04	Tabel karakter memberi label simetri pada orbital dan getaran, dan menentukan tumpang tindih serta transisi.
+recap-05	Dari simetri saja kita bisa meramal kepolaran, aktivitas inframerah, dan mengapa karbon dioksida menahan panas Bumi.
+recap-06	Berikutnya, kita gabungkan semuanya dalam spektroskopi molekul. Sampai jumpa.

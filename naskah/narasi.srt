@@ -1,0 +1,311 @@
+1
+00:00:01,600 --> 00:00:07,594
+Dua molekul ini tersusun dari atom yang sama, dengan ikatan yang sama persis.
+
+2
+00:00:07,594 --> 00:00:11,347
+Yang satu berbau daun mint. Yang lain berbau jintan.
+
+3
+00:00:11,347 --> 00:00:19,560
+Bedanya hanya satu: keduanya adalah bayangan cermin satu sama lain, seperti tangan kiri dan tangan kanan.
+
+4
+00:00:19,560 --> 00:00:27,286
+Hidung kita bisa membedakannya. Molekul pun bisa. Simetri ternyata bukan sekadar soal keindahan.
+
+5
+00:00:27,286 --> 00:00:36,919
+Hari ini kita belajar bahasa simetri: cara menggambarkan bentuk molekul dengan tepat, dan meramal sifatnya dari bentuk itu.
+
+6
+00:00:45,933 --> 00:00:48,986
+Perjalanan kita punya tiga bagian.
+
+7
+00:00:48,986 --> 00:00:58,365
+Pertama, prinsip dasar: unsur dan operasi simetri, yaitu sumbu putar, bidang cermin, pusat inversi, dan putaran tak wajar.
+
+8
+00:00:58,365 --> 00:01:05,456
+Kedua, implementasi dalam kimia: grup titik, cara menentukannya, dan tabel karakter.
+
+9
+00:01:05,456 --> 00:01:13,325
+Ketiga, penerapan: kepolaran, kiralitas, getaran yang aktif inframerah, dan gas rumah kaca.
+
+10
+00:01:15,933 --> 00:01:22,860
+Operasi simetri adalah gerakan yang membuat molekul tampak persis sama seperti sebelumnya.
+
+11
+00:01:22,860 --> 00:01:34,160
+Putar molekul air seratus delapan puluh derajat mengelilingi sumbu yang tepat, dan kedua hidrogen bertukar tempat. Hasilnya tak bisa dibedakan dari awal.
+
+12
+00:01:34,160 --> 00:01:40,520
+Garis atau bidang yang dipakai untuk melakukan operasi itu disebut unsur simetri.
+
+13
+00:01:40,520 --> 00:01:51,219
+Selalu ada satu operasi yang paling sepele: tidak melakukan apa-apa. Namanya identitas, E. Setiap molekul memilikinya.
+
+14
+00:01:51,219 --> 00:01:57,614
+Hanya ada lima jenis unsur simetri untuk molekul. Kita bahas satu per satu.
+
+15
+00:02:00,200 --> 00:02:08,390
+Sumbu putar C n: putaran sebesar tiga ratus enam puluh derajat dibagi n yang mengembalikan bentuk molekul.
+
+16
+00:02:08,390 --> 00:02:13,561
+Air punya sumbu C dua: putaran seratus delapan puluh derajat.
+
+17
+00:02:13,561 --> 00:02:21,196
+Amonia punya sumbu C tiga: putaran seratus dua puluh derajat, tiga kali kembali ke awal.
+
+18
+00:02:21,196 --> 00:02:27,568
+Benzena punya sumbu C enam tegak lurus cincin, dan enam sumbu C dua di bidang cincin.
+
+19
+00:02:27,568 --> 00:02:34,317
+Sumbu dengan n terbesar disebut sumbu utama, dan biasanya ditegakkan sebagai sumbu z.
+
+20
+00:02:36,900 --> 00:02:43,980
+Bidang cermin, sigma: pantulkan setiap atom melalui bidang ini, dan molekul tetap sama.
+
+21
+00:02:43,980 --> 00:02:55,434
+Bila bidang itu memuat sumbu utama, namanya sigma v, vertikal. Air punya dua: bidang molekul itu sendiri, dan bidang yang memotongnya tegak lurus.
+
+22
+00:02:55,434 --> 00:03:05,436
+Bila bidang itu tegak lurus sumbu utama, namanya sigma h, horizontal. Boron trifluorida punya satu, yaitu bidang molekulnya.
+
+23
+00:03:05,436 --> 00:03:12,883
+Ada juga sigma d, diagonal: bidang vertikal yang membelah sudut di antara dua sumbu C dua.
+
+24
+00:03:15,467 --> 00:03:23,868
+Pusat inversi, i: tarik setiap atom lurus melalui satu titik pusat, ke jarak yang sama di sisi seberang.
+
+25
+00:03:23,868 --> 00:03:29,685
+Benzena dan karbon dioksida punya pusat inversi. Air dan amonia tidak.
+
+26
+00:03:29,685 --> 00:03:41,505
+Unsur terakhir paling licik: putaran tak wajar, S n. Putar dengan sudut tiga ratus enam puluh dibagi n, lalu pantulkan pada bidang yang tegak lurus sumbu itu.
+
+27
+00:03:41,505 --> 00:03:51,427
+Metana tidak punya sumbu C empat, tetapi punya S empat: putar sembilan puluh derajat, lalu cerminkan, dan metana kembali sama.
+
+28
+00:03:51,427 --> 00:03:58,296
+Bidang cermin dan pusat inversi sebenarnya kasus khusus putaran tak wajar: S satu dan S dua.
+
+29
+00:04:00,900 --> 00:04:05,562
+Sekarang kita bisa mendefinisikan kiralitas dengan tepat.
+
+30
+00:04:05,562 --> 00:04:14,718
+Molekul kiral jika ia tidak punya putaran tak wajar sama sekali: tanpa bidang cermin, tanpa pusat inversi, tanpa S n.
+
+31
+00:04:14,718 --> 00:04:24,486
+Molekul seperti itu tidak bisa ditumpuk tepat di atas bayangan cerminnya, sama seperti tangan kiri tidak cocok dengan sarung tangan kanan.
+
+32
+00:04:24,486 --> 00:04:33,533
+Karvon adalah contohnya. Bentuk R berbau mint, bentuk S berbau jintan, karena reseptor penciuman kita sendiri juga kiral.
+
+33
+00:04:33,533 --> 00:04:41,546
+Itulah sebabnya obat sering dibuat hanya dalam satu bentuk cermin: tubuh kita membedakan kiri dan kanan.
+
+34
+00:04:44,133 --> 00:04:51,248
+Kumpulan semua operasi simetri sebuah molekul membentuk struktur matematika yang disebut grup.
+
+35
+00:04:51,248 --> 00:04:57,620
+Karena semua unsurnya melewati satu titik yang tetap, kita menyebutnya grup titik.
+
+36
+00:04:57,620 --> 00:05:05,478
+Air punya empat operasi: E, C dua, dan dua sigma v. Grup titiknya diberi nama C dua v.
+
+37
+00:05:05,478 --> 00:05:13,616
+Amonia termasuk C tiga v. Boron trifluorida, D tiga h. Metana, T d, grup tetrahedral.
+
+38
+00:05:13,616 --> 00:05:23,349
+Molekul yang berbeda tapi grup titiknya sama akan berbagi banyak sifat: kepolaran, jumlah getaran aktif, bahkan pola orbitalnya.
+
+39
+00:05:25,933 --> 00:05:30,418
+Untuk menentukan grup titik, ikuti diagram alir ini.
+
+40
+00:05:30,418 --> 00:05:42,530
+Apakah molekulnya linear? Jika ya dan punya pusat inversi, D tak hingga h, seperti karbon dioksida. Tanpa pusat inversi, C tak hingga v, seperti H Cl.
+
+41
+00:05:42,530 --> 00:05:54,218
+Apakah simetrinya sangat tinggi? Tetrahedron T d, oktahedron O h seperti belerang heksafluorida, ikosahedron I h seperti fulerena C enam puluh.
+
+42
+00:05:54,218 --> 00:06:05,775
+Jika tidak, cari sumbu utama C n. Ada n sumbu C dua yang tegak lurus padanya? Jika ya, grupnya keluarga D. Jika tidak, keluarga C.
+
+43
+00:06:05,775 --> 00:06:14,365
+Terakhir, periksa bidang cermin: sigma h memberi akhiran h, sigma v atau sigma d memberi akhiran v atau d.
+
+44
+00:06:14,365 --> 00:06:24,709
+Coba benzena: tidak linear, tidak kubik, sumbu utama C enam, enam C dua tegak lurus, ada sigma h. Jadi D enam h.
+
+45
+00:06:27,300 --> 00:06:31,208
+Mari lihat galeri molekul yang sudah kita kenal.
+
+46
+00:06:31,208 --> 00:06:39,705
+Air dan formaldehida: C dua v. Amonia: C tiga v. Etilena dan naftalena: D dua h.
+
+47
+00:06:39,705 --> 00:06:48,357
+Benzena: D enam h. Metana: T d. Belerang heksafluorida: O h. Fulerena: I h.
+
+48
+00:06:48,357 --> 00:06:54,929
+Dan molekul tanpa simetri apa pun selain identitas, seperti CHFClBr, termasuk grup C satu.
+
+49
+00:06:57,533 --> 00:07:07,044
+Setiap grup titik punya tabel karakter: kartu identitas yang mencatat bagaimana sesuatu berperilaku terhadap tiap operasi.
+
+50
+00:07:07,044 --> 00:07:13,581
+Untuk C dua v, ada empat baris: A satu, A dua, B satu, dan B dua.
+
+51
+00:07:13,581 --> 00:07:20,719
+Angka satu berarti tidak berubah oleh operasi itu. Minus satu berarti berganti tanda.
+
+52
+00:07:20,719 --> 00:07:33,025
+Orbital p z oksigen pada air tidak berubah oleh semua operasi: ia termasuk A satu. Orbital p x berganti tanda oleh C dua: ia termasuk B satu.
+
+53
+00:07:33,025 --> 00:07:43,015
+Itulah asal label dua a satu, satu b dua, tiga a satu, dan satu b satu pada orbital molekul air di video sebelumnya.
+
+54
+00:07:45,600 --> 00:07:51,903
+Tabel karakter juga menjawab pertanyaan lama: kapan dua orbital boleh bergabung?
+
+55
+00:07:51,903 --> 00:07:58,075
+Dua orbital hanya bertumpang tindih bila keduanya termasuk baris simetri yang sama.
+
+56
+00:07:58,075 --> 00:08:05,710
+Jika berbeda, bagian positif dan negatif tumpang tindihnya selalu saling menghapus: hasilnya tepat nol.
+
+57
+00:08:05,710 --> 00:08:15,134
+Aturan yang sama menentukan transisi mana yang diizinkan, seperti paritas pada atom. Paritas hanyalah simetri inversi.
+
+58
+00:08:17,733 --> 00:08:24,494
+Molekul polar jika punya momen dipol permanen. Simetri bisa meramalnya tanpa hitungan.
+
+59
+00:08:24,494 --> 00:08:35,028
+Momen dipol harus tetap sama oleh setiap operasi simetri. Jadi ia harus terletak pada setiap sumbu dan setiap bidang cermin sekaligus.
+
+60
+00:08:35,028 --> 00:08:41,233
+Akibatnya, hanya molekul dengan grup C n, C n v, atau C s yang bisa polar.
+
+61
+00:08:41,233 --> 00:08:51,801
+Karbon dioksida, boron trifluorida, dan metana punya ikatan polar, tetapi momen ikatannya saling meniadakan. Molekulnya nonpolar.
+
+62
+00:08:51,801 --> 00:08:58,784
+Air, C dua v, polar. Itulah sebabnya air melarutkan garam dan naik di pipa kapiler.
+
+63
+00:09:01,400 --> 00:09:10,436
+Molekul tak linear dengan N atom punya tiga N dikurangi enam getaran. Molekul linear, tiga N dikurangi lima.
+
+64
+00:09:10,436 --> 00:09:26,007
+Air punya tiga getaran: regangan simetris sekitar tiga ribu enam ratus lima puluh tujuh, tekukan seribu lima ratus sembilan puluh lima, dan regangan asimetris tiga ribu tujuh ratus lima puluh enam per sentimeter.
+
+65
+00:09:26,007 --> 00:09:37,261
+Getaran menyerap inframerah hanya bila mengubah momen dipol. Dalam bahasa simetri: bila getarannya termasuk baris yang sama dengan x, y, atau z.
+
+66
+00:09:37,261 --> 00:09:50,482
+Ketiga getaran air aktif inframerah. Tetapi pada molekul berpusat inversi, getaran yang aktif inframerah tidak aktif Raman, dan sebaliknya. Ini aturan saling meniadakan.
+
+67
+00:09:53,067 --> 00:10:00,524
+Karbon dioksida punya empat getaran: regangan simetris, regangan asimetris, dan dua tekukan.
+
+68
+00:10:00,524 --> 00:10:13,088
+Regangan simetris tidak mengubah dipol: tidak menyerap inframerah. Ia hanya terlihat pada spektrum Raman, sekitar seribu tiga ratus delapan puluh delapan per sentimeter.
+
+69
+00:10:13,088 --> 00:10:24,776
+Regangan asimetris, dua ribu tiga ratus empat puluh sembilan, dan tekukan, enam ratus enam puluh tujuh per sentimeter, mengubah dipol dan menyerap inframerah.
+
+70
+00:10:24,776 --> 00:10:32,458
+Tekukan enam ratus enam puluh tujuh tepat berada di daerah tempat Bumi memancarkan panasnya ke angkasa.
+
+71
+00:10:32,458 --> 00:10:46,444
+Nitrogen dan oksigen, D tak hingga h, tidak punya getaran yang aktif inframerah. Karena itu hanya sebagian kecil udara, seperti karbon dioksida dan uap air, yang menahan panas Bumi.
+
+72
+00:10:48,833 --> 00:10:50,188
+Mari rangkum.
+
+73
+00:10:50,188 --> 00:10:58,612
+Ada lima jenis unsur simetri: identitas, sumbu putar, bidang cermin, pusat inversi, dan putaran tak wajar.
+
+74
+00:10:58,612 --> 00:11:04,606
+Molekul tanpa putaran tak wajar bersifat kiral, seperti karvon mint dan karvon jintan.
+
+75
+00:11:04,606 --> 00:11:11,355
+Semua operasi sebuah molekul membentuk grup titik, yang ditentukan dengan diagram alir.
+
+76
+00:11:11,355 --> 00:11:19,048
+Tabel karakter memberi label simetri pada orbital dan getaran, dan menentukan tumpang tindih serta transisi.
+
+77
+00:11:19,048 --> 00:11:28,261
+Dari simetri saja kita bisa meramal kepolaran, aktivitas inframerah, dan mengapa karbon dioksida menahan panas Bumi.
+
+78
+00:11:28,261 --> 00:11:34,767
+Berikutnya, kita gabungkan semuanya dalam spektroskopi molekul. Sampai jumpa.
